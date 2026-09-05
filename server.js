@@ -6,6 +6,12 @@ app.get("/", (req,res)=> { console.log("Visita:", new Date().toISOString(), "IP:
   👉 <a href="https://youtube.com/@tu-ip-for-my?si=b62ENd_f5SitoJLQ" target="_blank" style="color:#00aaff;">
     Canal de YouTube
   </a>
+</p><p style="text-align:center;color:white;">
+  👉 <a href="https://www.tiktok.com/@tuipformy?_r=1&_t=ZG-99TuRKF37vV"
+  target="_blank"
+  style="color:#00aaff;">
+    Canal de TikTok
+  </a>
 </p></body>`); });
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, "0.0.0.0");

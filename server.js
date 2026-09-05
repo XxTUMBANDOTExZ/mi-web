@@ -2,7 +2,18 @@ const express= require("express");
 const app= express();
 app.set("trust proxy", true) ;
 app.use(express.static(__dirname));
-app.get("/", (req,res)=> { console.log("Visita:", new Date().toISOString(), "IP:", req.ip, "Dispositivo:", req.get("user-agent")); res.send(`<title>TU IP FOR MY</title><body style="background-color:black;"><style>
+app.get("/", (req,res)=> { console.log("Visita:", new Date().toISOString(), "IP:", req.ip, "Dispositivo:", req.get("user-agent")); res.send(`<title>TU IP FOR MY</title><body style="background-color:black;"><style>.typing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 2s steps(15, end) forwards;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 15ch; }
+}
 .cursor {
   animation: blink 1s infinite;
 }
@@ -12,7 +23,7 @@ app.get("/", (req,res)=> { console.log("Visita:", new Date().toISOString(), "IP:
   51%, 100% { opacity: 0; }
 }
 </style><h1 style="font-size:6vw;margin:0;color:white;text-align:center;font-family:Georgia,serif;">TU IP FOR MY</h1><p style="color:#00ff88;font-family:monospace;text-align:center;">
-  &gt; system online<span class="cursor">_</span>
+  <span class="typing">&gt; system online</span><span class="cursor">_</span>
 </p><p style="font-size:3vw;margin:0;text-align:center;color:white;text-align.center;font-family:monospace;">TU IP: ${req.ip}</p><img src="/MI%20AMIGO.jpg"
 style="max-width:90%;height:auto;display:block;margin:20px auto;border:2px solid #00ff88;border-radius:12px;">
 

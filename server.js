@@ -24,6 +24,8 @@ app.get("/", (req,res)=> { console.log("Visita:", new Date().toISOString(), "IP:
 }
 </style><h1 style="font-size:6vw;margin:0;color:white;text-align:center;font-family:Georgia,serif;">TU IP FOR MY</h1><p style="color:#00ff88;font-family:monospace;text-align:center;">
   <span class="typing">&gt; system online</span><span class="cursor">_</span>
+<p style="color:#00ff88;font-family:monospace;text-align:center;font-size:14px;">
+  STATUS: ONLINE
 </p><p style="font-size:3vw;margin:0;text-align:center;color:white;text-align.center;font-family:monospace;">TU IP: ${req.ip}</p><img src="/MI%20AMIGO.jpg"
 style="max-width:90%;height:auto;display:block;margin:20px auto;border:2px solid #00ff88;border-radius:12px;">
 

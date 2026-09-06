@@ -98,8 +98,39 @@ style="max-width:90%;height:auto;display:block;margin:20px auto;border:2px solid
   font-family:monospace;
   font-size:14px;
   ">
-    TU-IP-FOR-MY © 2026
+  <div style="
+margin:40px auto 20px auto;
+max-width:600px;
+padding:20px;
+border:1px solid #00ff88;
+border-radius:10px;
+font-family:monospace;
+text-align:center;
+">
+
+  <h3 style="color:#00ff88;">Últimos vídeos</h3>
+
+  <p>
+    <a href="https://youtu.be/atVsVq8W4Js"
+    target="_blank"
+    style="color:white;text-decoration:none;">
+      ▶ ¿Qué es una dirección IP?
+    </a>
   </p>
+
+  <p>
+    <a href="https://youtu.be/VsbxD2v8pog?is=Ehqq4NEXJ_S-s4Tz"
+    target="_blank"
+    style="color:white;text-decoration:none;">
+      ▶ Cómo ocultar tu IP con una VPN
+    </a>
+  </p>
+
+</div>
+
+<p style="margin-top:40px;color:#777777;font-family:monospace;font-size:14px;">
+  TU-IP-FOR-MY © 2026
+</p>
 
 </div>
 

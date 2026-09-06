@@ -108,25 +108,98 @@ font-family:monospace;
 text-align:center;
 ">
 
+  <div style="
+margin:40px auto 20px auto;
+max-width:900px;
+padding:20px;
+border:1px solid #00ff88;
+border-radius:10px;
+font-family:monospace;
+text-align:center;
+">
+
   <h3 style="color:#00ff88;">Últimos vídeos</h3>
 
-  <p>
-    <a href="https://youtu.be/atVsVq8W4Js"
-    target="_blank"
-    style="color:white;text-decoration:none;">
-      ▶ ¿Qué es una dirección IP?
-    </a>
-  </p>
+  <div style="
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+  ">
 
-  <p>
-    <a href="https://youtu.be/VsbxD2v8pog?is=Ehqq4NEXJ_S-s4Tz"
-    target="_blank"
-    style="color:white;text-decoration:none;">
-      ▶ Cómo ocultar tu IP con una VPN
-    </a>
-  </p>
+    <div style="
+    flex:1 1 300px;
+    max-width:400px;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:15px;
+    ">
+
+      <img
+      src="https://img.youtube.com/vi/atVsVq8W4Js/maxresdefault.jpg"
+      style="width:100%;border-radius:8px;"
+      alt="Miniatura vídeo IP">
+
+      <h4 style="color:white;">
+        ¿Qué es una dirección IP?
+      </h4>
+
+      <a
+      href="https://youtu.be/atVsVq8W4Js"
+      target="_blank"
+      style="
+      display:inline-block;
+      padding:10px 18px;
+      background:#00ff88;
+      color:black;
+      text-decoration:none;
+      border-radius:6px;
+      font-weight:bold;
+      ">
+        Ver vídeo
+      </a>
+
+    </div>
+
+    <div style="
+    flex:1 1 300px;
+    max-width:400px;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:15px;
+    ">
+
+      <img
+      src="https://img.youtube.com/vi/VsbxD2v8pog/maxresdefault.jpg"
+      style="width:100%;border-radius:8px;"
+      alt="Miniatura vídeo VPN">
+
+      <h4 style="color:white;">
+        Cómo ocultar tu IP con una VPN
+      </h4>
+
+      <a
+      href="https://youtu.be/VsbxD2v8pog"
+      target="_blank"
+      style="
+      display:inline-block;
+      padding:10px 18px;
+      background:#00ff88;
+      color:black;
+      text-decoration:none;
+      border-radius:6px;
+      font-weight:bold;
+      ">
+        Ver vídeo
+      </a>
+
+    </div>
+
+  </div>
 
 </div>
+
+  
 
 <p style="margin-top:40px;color:#777777;font-family:monospace;font-size:14px;">
   TU-IP-FOR-MY © 2026

@@ -136,7 +136,7 @@ text-align:center;
     ">
 
       <img
-      src="https://img.youtube.com/vi/atVsVq8W4Js/maxresdefault.jpg"
+      src="https://img.youtube.com/vi/Sa8Jq06ziIY/maxresdefault.jpg"
       style="width:100%;border-radius:8px;"
       alt="Miniatura vídeo IP">
 
@@ -170,7 +170,7 @@ text-align:center;
     ">
 
       <img
-      src="https://img.youtube.com/vi/VsbxD2v8pog/maxresdefault.jpg"
+      src="https://img.youtube.com/vi/Sa8Jq06ziIY/maxresdefault.jpg"
       style="width:100%;border-radius:8px;"
       alt="Miniatura vídeo VPN">
 
@@ -179,7 +179,7 @@ text-align:center;
       </h4>
 
       <a
-      href="https://youtu.be/VsbxD2v8pog"
+      href="https://youtu.be/Sa8Jq06ziIY"
       target="_blank"
       style="
       display:inline-block;

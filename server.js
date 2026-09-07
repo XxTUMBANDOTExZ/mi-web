@@ -136,7 +136,7 @@ text-align:center;
     ">
 
       <img
-      src="https://img.youtube.com/vi/Sa8Jq06ziIY/maxresdefault.jpg"
+      src="href="https://youtu.be/atVsVq8W4Js"/maxresdefault.jpg"
       style="width:100%;border-radius:8px;"
       alt="Miniatura vídeo IP">
 

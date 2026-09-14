@@ -201,7 +201,52 @@ text-align:center;
 
   
 
-<p style="margin-top:40px;color:#777777;font-family:monospace;font-size:14px;">
+<div style="
+margin:40px auto;
+max-width:1000px;
+padding:20px;
+border:1px solid #00ff88;
+border-radius:10px;
+font-family:monospace;
+text-align:center;
+">
+
+  <h2 style="color:#00ff88;">🌍 WI-FI MAP</h2>
+
+  <p style="color:#cccccc;">
+    Explora puntos Wi-Fi públicos alrededor del mundo
+  </p>
+
+  <div id="wifiMap" style="
+  width:100%;
+  height:500px;
+  border-radius:10px;
+  overflow:hidden;
+  "></div>
+
+</div>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+
+<script>
+  const wifiMap = L.map('wifiMap').setView([20, 0], 2);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap'
+  }).addTo(wifiMap);
+
+  L.marker([40.4168, -3.7038])
+    .addTo(wifiMap)
+    .bindPopup('<b>Ejemplo Wi-Fi</b><br>Madrid, España');
+</script><p style="margin-top:40px;color:#777777;font-family:monospace;font-size:14px;">
   TU-IP-FOR-MY © 2026
 </p>
 

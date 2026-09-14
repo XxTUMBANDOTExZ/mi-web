@@ -217,7 +217,36 @@ text-align:center;
     Explora puntos Wi-Fi públicos alrededor del mundo
   </p>
 
-  <div id="wifiMap" style="
+  <select id="countrySelect" style="
+padding:10px;
+margin-bottom:15px;
+border-radius:6px;
+background:#111;
+color:white;
+border:1px solid #00ff88;
+font-family:monospace;
+width:100%;
+max-width:350px;
+">
+  <option value="">Selecciona un país</option>
+  <option value="ES">España</option>
+  <option value="FR">Francia</option>
+  <option value="IT">Italia</option>
+  <option value="DE">Alemania</option>
+  <option value="PT">Portugal</option>
+  <option value="GB">Reino Unido</option>
+  <option value="US">Estados Unidos</option>
+  <option value="CA">Canadá</option>
+  <option value="MX">México</option>
+  <option value="BR">Brasil</option>
+  <option value="AR">Argentina</option>
+  <option value="CL">Chile</option>
+  <option value="AU">Australia</option>
+  <option value="JP">Japón</option>
+  <option value="KR">Corea del Sur</option>
+  <option value="IN">India</option>
+  <option value="ZA">Sudáfrica</option>
+</select><div id="wifiMap" style="
   width:100%;
   height:500px;
   border-radius:10px;
